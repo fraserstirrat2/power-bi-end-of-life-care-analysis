@@ -12,7 +12,7 @@ The project demonstrates an end-to-end BI workflow including data preparation, s
 
 ### Employer-Facing Dashboard Walkthrough
 
-**[Watch the main Power BI demonstration]** https://youtu.be/kZi32zx_0-Y
+▶️ **[Watch the main Power BI demonstration](https://youtu.be/kZi32zx_0-Y)**
 
 
 This walkthrough focuses on the finished analytical solution, the interaction patterns, stakeholder value, and selected technical implementation.
