@@ -114,7 +114,16 @@ R was used upstream to:
 - Prepare NHS Board boundary data
 - Generate the GeoJSON spatial layer used by the Azure Maps visualisation
 
-This technical work is critical infrastructure that enables the interactive geographical analysis to work smoothly.
+This technical work provides the geographical boundary layer required for the interactive NHS Board analysis.
+
+### Supporting R Scripts
+
+Selected public-safe R scripts are included to provide technical evidence of the upstream analytical workflow:
+
+- [`EoL_Open_Data.R`](scripts/EoL_Open_Data.R) — processes the publicly available End-of-Life Care open data used within the analytical workflow.
+- [`geoJSON.R`](scripts/geoJSON.R) — processes NHS Board geographical boundaries and generates the GeoJSON layer used by the Power BI mapping solution.
+
+These scripts are supporting portfolio examples rather than a complete production environment.
 
 ### Field Parameters
 
