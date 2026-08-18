@@ -8,7 +8,7 @@ The project demonstrates an end-to-end BI workflow including data preparation, s
 
 ---
 
-## Video Demonstrations
+## Video Demonstration
 
 ### Employer-Facing Dashboard Walkthrough
 
