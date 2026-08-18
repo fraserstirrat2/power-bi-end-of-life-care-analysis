@@ -40,20 +40,24 @@ The dashboard provides a structured analytical journey:
 **1. Summary** — Headline national position with dynamic commentary and KPIs that update with financial year selection.
 
 **2. Trend Analysis** — Historical comparison across 10 years, with the ability to compare Scotland-level trends against individual NHS Boards without duplicating reports.
+![Trend Analysis](assets/trend-analysis.png)
 
 **3. Geographical Analysis** — NHS Board variation visualised through an interactive Azure Maps layer, with supporting metrics and Scotland-level benchmarking.
+![Geographical Analysis](assets/geographical-analysis.png)
 
 **4. HSCP Local Analysis** — Health and Social Care Partnership level reporting, allowing granular local exploration while maintaining consistent calculation logic across all geographical levels.
+![HSCP Analysis](assets/hscp-analysis.png)
 
-**5. Demographic Analysis** — Flexible Scotland-level demographic exploration with selectable measures (deprivation, urban-rural, age & sex) and financial year ranges using Power BI field parameters.
+**5. Demographic Analysis** — Flexible Scotland-level demographic exploration with selectable measures and demographic breakdowns including deprivation, urban-rural, age and sex. Power BI field parameters allow the breakdown dimension to change dynamically within the same visual.
+![Demographic Analysis](assets/demographic-analysis.png)
 
 Reusable DAX measures and a shared semantic model ensure the same reporting logic operates consistently across all these different analytical views.
 
 ---
 
-## Key Finding
+## Key Finding - 2024/25
 
-For 2024/25, Scottish data shows approximately **89.2% of the final six months of life** spent at home or in a community setting, with approximately **20 days** spent in hospital on average.
+For 2024/25 (provisional), Scotland-level data shows approximately 89.2% of the final six months of life spent at home or in a community setting, with approximately 20 days spent in hospital on average.
 
 The report is designed to support exploration and investigation rather than imply causation from visual patterns alone.
 
@@ -65,7 +69,7 @@ The report is designed to support exploration and investigation rather than impl
 |---|---|
 | **Source Data** | Public Health Scotland open data (aggregate) |
 | **Spatial Processing** | R (NHS Board boundary preparation, GeoJSON generation) |
-| **Data Transformation** | Power Query (ingestion, standardisation, validation) |
+| **Data Transformation** | Power Query (ingestion, standardisation, data shaping) |
 | **Data Model** | Power BI semantic model with defined relationships and lookup dimensions |
 | **Calculations** | DAX (reusable measures, KPIs, dynamic narrative text) |
 | **Interactive Visualisation** | Power BI (Azure Maps, slicers, field parameters, dynamic filtering and navigation) |
@@ -95,6 +99,7 @@ Key design priorities included:
 ### Semantic Modelling
 
 The report uses defined relationships between analytical tables and supporting lookup information (financial year, geographical dimensions). This allows filters to propagate consistently and enables calculation logic to be reused throughout the report without duplication.
+![Semantic Modelling](assets/semantic-model.png)
 
 ### DAX & Reusable Measures
 
@@ -146,7 +151,7 @@ Quality assurance formed part of the development process rather than being treat
 
 **Business Intelligence**
 - Power BI report development
-- Self-service analytics and user empowerment
+- Self-service analytics
 - Stakeholder-focused reporting
 - Dashboard information hierarchy and UX
 
