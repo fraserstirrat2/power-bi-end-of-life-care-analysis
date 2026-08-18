@@ -68,8 +68,8 @@ The report is designed to support exploration and investigation rather than impl
 | **Data Transformation** | Power Query (ingestion, standardisation, validation) |
 | **Data Model** | Power BI semantic model with defined relationships and lookup dimensions |
 | **Calculations** | DAX (reusable measures, KPIs, dynamic narrative text) |
-| **Interactive Visualisation** | Power BI (Azure Maps, field parameters, drill-down interactions) |
-| **Quality Assurance** | Validation checks integrated into Power Query (filter propagation testing, relationship verification, calculated output checking) |
+| **Interactive Visualisation** | Power BI (Azure Maps, slicers, field parameters, dynamic filtering and navigation) |
+| **Quality Assurance** | Source reconciliation, calculation validation, relationship/filter testing and report interaction testing |
 
 ---
 
@@ -161,7 +161,7 @@ Quality assurance formed part of the development process rather than being treat
 **Analytical & Professional**
 - Data validation and quality assurance
 - Governance and responsible reporting
-- Analytical interpretation and contextualization
+- Analytical interpretation and contextualisation
 - Stakeholder communication
 - Iterative development and refinement
 
@@ -169,21 +169,23 @@ Quality assurance formed part of the development process rather than being treat
 
 ## Data Source & Disclaimer
 
-This is an independent portfolio project using publicly available Scottish health data.
+This is an **independent Power BI portfolio project using publicly available Scottish health data**.
 
-**Source:** Public Health Scotland End of Life Care Open Data
+The analysis uses published aggregate End-of-Life Care Open Data covering Scotland, NHS Board, Health and Social Care Partnership and available demographic reporting.
 
-It is not an official publication and is not endorsed by the original data provider.
+**Official source:**  
+[Percentage of end of life spent at home or in a community setting — financial years ending 31 March 2016 to 2025](https://publichealthscotland.scot/publications/percentage-of-end-of-life-spent-at-home-or-in-a-community-setting/percentage-of-end-of-life-spent-at-home-or-in-a-community-setting-financial-years-ending-31-march-2016-to-2025/)
 
-For authoritative statistics, methodology and official commentary, refer to the original published source:  
-[Public Health Scotland End of Life Care Statistics](https://www.publichealthscotland.scot/)
+This portfolio project is **not an official publication and is not endorsed by the original data provider**.
+
+For authoritative statistics, methodology, definitions and official commentary, refer to the published source above.
 
 ---
 
 ## About This Project
 
-This portfolio demonstrates how I approach Business Intelligence work: starting with the reporting problem and the people who need to use the information, then thinking about the data preparation, modelling, calculations and user experience required to turn that into something genuinely useful.
+This project demonstrates how I approach Business Intelligence work: starting with the reporting problem and stakeholder requirements, then considering the data preparation, modelling, calculation logic and user experience required to turn complex information into a useful analytical product.
 
-While this uses Scottish end-of-life care data, the methodology translates directly to Australian health systems, financial services, or any sector where stakeholders need interactive, trustworthy reporting.
+Although the subject matter here is Scottish end-of-life care, the underlying approach is transferable across sectors: understanding reporting requirements, building reusable analytical logic, validating outputs and presenting information in a way that stakeholders can understand and trust.
 
-I'm now looking to bring this approach into Australian organisations as a Power BI or Business Intelligence professional.
+I'm particularly interested in applying this combination of **Business Intelligence development, analytical judgement and stakeholder-focused reporting** within Power BI and BI Analyst roles.
